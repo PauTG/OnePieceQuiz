@@ -23,7 +23,6 @@ body {
     font-family: Arial, sans-serif;
     background-size: cover;
     background-position: center;
-    margin: 0;
     height: 100vh; 
     display: flex;
     justify-content: center;
@@ -32,6 +31,13 @@ body {
     text-align: center;
     background-image: url('./img/643508.jpg');
     overflow: hidden;   
+    margin: 0;
+    padding: 0;
+    background-image: url('./img/643508.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
 }
 
 h1 {
