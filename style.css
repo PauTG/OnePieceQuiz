@@ -145,10 +145,6 @@ button:hover {
         background-image: "./img/643508.jpg";
     }
     
-    .option-button.selected {
-        background: linear-gradient(12deg, #bbb33d, #e83535);
-        transition: background 0.1s ease-out;
-    }
 
     .text{
         margin: 10px;
@@ -163,5 +159,9 @@ button:hover {
         justify-content: center;
         align-items: center;
         text-align: center;
+    }
+
+    button:hover {
+        background:#e83535;
     }
 }
