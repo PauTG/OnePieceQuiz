@@ -69,17 +69,18 @@ button:hover {
 
 /* Estilo del contenedor del cuestionario */
 .container {
-    width: 90vw;
-    height: 90vh;
-    padding: 20px;
-    margin: 20px;
+    width: 90%;
+    height: auto;
+    padding: 15px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto; /* Permite desplazamiento vertical si el contenido es mayor que la ventana */
     background-color: rgba(0, 0, 0, 0.8);
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    display: flex;
-    flex-direction: column; /* Asegura que los elementos dentro se apilen verticalmente */
-    align-items: center; /* Centra los elementos horizontalmente */
-    justify-content: center; /* Centra los elementos verticalmente */
 }
 
 /* Estilos específicos para portafolio */
@@ -99,10 +100,13 @@ button:hover {
 #options button {
     display: block;
     width: 100%;
+    height: auto;
     margin: 10px 0;
     padding: 10px;
     font-size: 15px;
     cursor: pointer;
+    text-align: center;
+    
 }
 
 /* Estilo del botón siguiente */
@@ -158,7 +162,7 @@ button:hover {
     }
 
     #question {
-        font-size: 10px;
+        font-size: 15px;
     }
 
     p{
@@ -170,7 +174,7 @@ button:hover {
     }
     
     body {
-        height: auto; /* Ajusta la altura para permitir el contenido adicional en pantallas pequeñas */
+        height: 100%; /* Ajusta la altura para permitir el contenido adicional en pantallas pequeñas */
     }
 
     .text {
