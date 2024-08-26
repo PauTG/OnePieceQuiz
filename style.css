@@ -120,7 +120,7 @@ button:hover {
     .container {
         justify-content: center;
         height: 100vh;
-        width: auto;
+        width: 100vh;
         overflow-y:scroll;
         padding: 15px;
         margin: auto;
