@@ -197,7 +197,7 @@ function showQuestion() {
     
     optionsElement.innerHTML = ''; 
     const buttons = optionsElement.querySelectorAll('.option-button');
-    buttons.forEach(button => button.classList.remove('selected')); // Eliminar la clase 'selected' de los botones
+    buttons.forEach(button => button.classList.remove('selected')); 
     
     const currentQuestion = questions[currentQuestionIndex];
     questionElement.innerText = currentQuestion.question;
@@ -208,7 +208,7 @@ function showQuestion() {
         const button = document.createElement('button');
         button.innerText = text;
         button.classList.add('option-button');
-        button.onclick = () => selectOption(character); // Pasar solo el character a la función
+        button.onclick = () => selectOption(character); 
         optionsElement.appendChild(button);
     });
     
@@ -233,7 +233,7 @@ function selectOption(character) {
 }
 
 function showResult() {
-    console.log('showResult() called'); // Verifica si se llama la función
+    console.log('showResult() called');
 
     const resultElement = getElement('result');
 
@@ -260,7 +260,7 @@ function showResult() {
     `;
     
     getElement('quiz-container').style.display = 'none';
-    resultElement.style.display = 'block'; // Asegúrate de que el resultado esté visible
+    resultElement.style.display = 'block';
 
     const restartButton = getElement('restart-btn');
     restartButton.addEventListener('click', () => {
@@ -283,12 +283,11 @@ const startButton = document.getElementById('start-btn');
 const startScreen = document.getElementById('start-screen');
 const quizContainer = document.getElementById('quiz-container');
 
-// Función que oculta la pantalla de inicio y muestra el cuestionario
+
 function startQuiz() {
-    startScreen.style.display = 'none'; // Oculta la pantalla de inicio
-    quizContainer.style.display = 'block'; // Muestra el cuestionario
-    showQuestion(); // Muestra la primera pregunta
+    startScreen.style.display = 'none';
+    quizContainer.style.display = 'block'; 
+    showQuestion();
 }
 
-// Agrega el evento de clic al botón "Empezar"
 startButton.addEventListener('click', startQuiz);

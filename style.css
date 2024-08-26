@@ -133,6 +133,8 @@ button:hover {
         padding: 1px;
         margin: 1px;
         text-align: center;
+        align-items: center;
+        margin-top: 190px;
     }
 
     #question{
