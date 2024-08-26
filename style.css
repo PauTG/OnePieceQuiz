@@ -145,7 +145,7 @@ button:hover {
     /* Ajustes para el contenedor en pantallas pequeñas */
     .container {
         width: 100%;
-        height: auto;
+        height: 100%;
         padding: 15px;
         margin: 0;
         display: flex;
