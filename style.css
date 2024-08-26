@@ -173,5 +173,15 @@ button:hover {
         align-items: center;
         text-align: center;
     }
+    #start-btn {
+        font-size: 1rem; 
+        padding: 8px 16px; 
+    }
+
+    button {
+        font-size: 14px; 
+        padding: 8px 16px; 
+        transition: none;
+    }
 
 }
