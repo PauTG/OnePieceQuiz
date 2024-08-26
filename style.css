@@ -70,7 +70,7 @@ button:hover {
 
 .container {
     width: 90vh;
-    height: auto;
+    height: 90vh;
     padding: 20px;
     margin: 20px;
     background-color: rgba(0, 0, 0, 0.8);
