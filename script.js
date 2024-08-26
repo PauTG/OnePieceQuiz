@@ -180,15 +180,15 @@ const characterImages = {
 };
 
 const characterDescriptions = {
-    Luffy: "Para que te toque Luffy tenés que estar un poco demente pero sos un tipazo que persevera por lo que quiere. No importa cuán difícil sea, lo hacés con mucho optimismo",
-    Nami: "Para que te toque Nami sos alguien que sabe cómo manejar cada situación muchas situaciones complicadas de la vida. Te gusta tener todo bajo control y siempre estás buscando la mejor manera de conseguir lo que necesitas. Tenés una habilidad especial para resolver problemas y obtener lo que querés",
-    Zoro: "Para que te toque Zoro tenés que ser una persona apasionada por las cosas que hace y con un fuerte sentido del honor. Los desafios te parecen una materia interesante de enfrentar. La lealtad y la determinación te caracterizan",
-    Sanji: "Para que te toque Sanji tenés que ser una persona que pone a los demás antes que a vos mismo y siempre encuentra alegría en el cuidado de los demás. Sos una persona que siempre busca hacer feliz a los demás, con un toque especial en todo lo que haces",
-    Chopper: "Para que te toque Chopper sos un alma amable y preocupada por los demás. Te preocupás profundamente por el bienestar del otro y tenés una capacidad increible para dar apoyo, en todos sus sentidos",
-    Brook: "Para que te toque Brook sos una persona que ve la vida con mucho humor y alegría, a los problemas le das la entidad necesaria, no más. Te gusta alegrar el día a los demás y tu actitud positiva destaca entre muchos",
-    Robin: "Para que te toque Robin tenés que ser persona que valora mucho el conocimiento y la sabiduría de los demás. Siempre estás buscando aprender más y entender de todo. Tu tranquilidad y tu habilidad para observar y analizar te caracterizan",
-    Franky: "Para que te toque Franky tenés que ser una persona creativa y entusiasta por lo que hacés, siempre buscando mejorar las cosas que te rodean. Sos innovador y te encanta trabajar en proyectos que consideres desafiante para tu ingenio",
-    Usopp: "Para que te toque Usopp debés ser una persona con una intensa imaginacion y con habilidad de recordar y contar chismes. Sos un increible amigo y aunque ciertas situaciones te den miedo siempre estás dispuesto a hacer lo necesario para ayudar a los demás"
+    Luffy: "Para que te toque Luffy tenés que estar un poco loco, pero sos un groso que no se rinde nunca. No importa lo jodido que sea el desafío, lo enfrentás con una actitud re positiva",
+    Nami: "Para que te toque Nami sos de esos que siempre tienen un plan para todo y saben cómo salir de cualquier quilombo. Te gusta tener todo bien atado y siempre estás en busca de la mejor forma de conseguir lo que querés. Tenés una habilidad increíble para resolver problemas y conseguir lo que te proponés",
+    Zoro: "Para que te toque Zoro, tenés que ser de esos que se tiran de cabeza a lo que les gusta y no se achican frente a nada. Los desafíos los tomás como una buena oportunidad para poner a prueba tus agallas. Lealtad y determinación son lo tuyo, y te bancás cualquier cosa con tal de cumplir tu objetivo",
+    Sanji: "Para que te toque Sanji tenés que ser de los que siempre ponen a los demás primero y encuentran felicidad en cuidar a los otros. Sos el tipo de persona que siempre busca hacer sonreír a la gente, poniendo un toque especial en todo lo que hacés",
+    Chopper: "Para que te toque Chopper tenés que ser un alma buena onda que siempre está pensando en los demás. Te importa un montón el bienestar de la gente y tenés un don para brindar apoyo en todo lo que necesiten, sea como sea",
+    Brook: "Para que te toque Brook tenés que ser de esos que ven la vida con humor y buena onda, y no se complican demasiado con los problemas. Te encanta alegrar el día a los demás y tu actitud positiva brilla por donde vas",
+    Robin: "Para que te toque Robin tenés que ser de los que valoran el conocimiento y siempre están buscando aprender algo nuevo. Te encanta entender cómo funciona todo y tu tranquilidad, junto con tu habilidad para observar y analizar, te hacen destacar mil",
+    Franky: "Para que te toque Franky tenés que ser un tipo creativo y re entusiasta con lo que hacés, siempre buscando darle una vuelta de tuerca a todo lo que te rodea. Te gusta todo lo que sea para innovar y te encanta meterte en proyectos que pongan a prueba tu ingenio.",
+    Usopp: "Para que te toque Usopp tenés que ser un imaginativo de primera, con un talento bárbaro para contar anécdotas y chismes. Sos un amigo de ley, y aunque a veces te tiemblen las piernas, siempre estás ahí para dar una mano cuando hace falta"
 };
 
 function showQuestion() {
