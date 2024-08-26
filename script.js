@@ -70,7 +70,7 @@ const questions = [
         ]
     },
     {
-        question: "¿Qué tipo de comida prefieres?",
+        question: "¿Qué tipo de comida preferís?",
         options: [
             { text: "Carne, sobre todos los alimentos", character: "Luffy" },
             { text: "Frutas frescas y platos que sean livianos", character: "Nami" },
@@ -84,7 +84,7 @@ const questions = [
         ]
     },
     {
-        question: "¿Cuál es tu mayor miedo?",
+        question: "¿Cuál de todos estos consideras tu mayor miedo?",
         options: [
             { text: "Perder a mis amigos", character: "Luffy" },
             { text: "Quedarme sin dinero", character: "Nami" },
@@ -126,7 +126,7 @@ const questions = [
         ]
     },
     {
-        question: "¿Cuál es tu mayor motivación?",
+        question: "¿Cuál consideras tu mayor motivación?",
         options: [
             { text: "Intento convertirme en el mejor en lo que hago", character: "Luffy" },
             { text: "Asegurarme de que nunca me falte nada", character: "Nami" },
@@ -140,7 +140,7 @@ const questions = [
         ]
     },
     {
-        question: "¿Cómo te preparás para una batalla?",
+        question: "¿Cómo te prepararías para una batalla?",
         options: [
             { text: "Me lanzo de inmediato, confío en mi instinto", character: "Luffy" },
             { text: "Hago un plan y me aseguro de que todos sepan qué hacer", character: "Nami" },
