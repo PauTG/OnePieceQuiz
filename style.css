@@ -62,11 +62,6 @@ button {
     transition: background 0.3s ease;
 }
 
-button:hover {
-    background: linear-gradient(45deg, #bbb33d, #e83535);
-}
-
-
 .container {
     width: 90%;
     height: auto;
@@ -165,8 +160,7 @@ button:hover {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        overflow-y: auto; 
-        height: auto; 
+        height: 100%; 
     }
 
     h1 {
