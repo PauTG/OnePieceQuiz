@@ -1,5 +1,6 @@
 
 
+/* Estilos generales para el botón de inicio */
 #start-btn {
     padding: 10px 20px;
     font-size: 1.2rem;
@@ -19,31 +20,25 @@
     display: none;
 }
 
+/* Estilo del cuerpo de la página */
 body {
     font-family: Arial, sans-serif;
+    background-image: url('./img/643508.jpg');
     background-size: cover;
     background-position: center;
-    height: 100vh; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
-    text-align: center;
-    background-image: url('./img/643508.jpg');
-    overflow: hidden;   
-    margin: 0;
-    padding: 0;
-    background-image: url('./img/643508.jpg');
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat; 
-    background-attachment: fixed;
 }
 
-h1 {
-    font-family: 'Onepiecefont', sans-serif;
-}
-
+/* Estilo de la fuente personalizada */
 @font-face {
     font-family: 'Onepiecefont';
     src: url('./typo/onepiecefont.ttf') format('truetype');
@@ -51,6 +46,11 @@ h1 {
     font-style: normal;
 }
 
+h1 {
+    font-family: 'Onepiecefont', sans-serif;
+}
+
+/* Estilos generales para los botones */
 button {
     background: linear-gradient(45deg, #c8472c, #412a1e);
     color: #fefefe;
@@ -66,34 +66,36 @@ button {
 button:hover {
     background: linear-gradient(45deg, #bbb33d, #e83535);
 }
- 
 
+/* Estilo del contenedor del cuestionario */
 .container {
-    width: 90vh;
+    width: 90vw;
     height: 90vh;
     padding: 20px;
     margin: 20px;
     background-color: rgba(0, 0, 0, 0.8);
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    flex-wrap: wrap;
-    justify-content:center
+    display: flex;
+    flex-direction: column; /* Asegura que los elementos dentro se apilen verticalmente */
+    align-items: center; /* Centra los elementos horizontalmente */
+    justify-content: center; /* Centra los elementos verticalmente */
 }
 
-
+/* Estilos específicos para portafolio */
 .portafolio {
-    color: #df4949; 
-    text-decoration: none; 
+    color: #df4949;
+    text-decoration: none;
     font-size: 16px;
-  }
+}
 
-
-
+/* Estilo de la pregunta */
 #question {
     font-size: 24px;
     margin-bottom: 20px;
 }
 
+/* Estilo de las opciones */
 #options button {
     display: block;
     width: 100%;
@@ -103,86 +105,89 @@ button:hover {
     cursor: pointer;
 }
 
+/* Estilo del botón siguiente */
 #next-btn {
     margin-top: 20px;
     padding: 10px 20px;
     font-size: 18px;
 }
 
+/* Estilo del resultado */
 #result {
     font-size: 28px;
     margin-top: 20px;
 }
 
-.develop{
+/* Estilo del desarrollador */
+.develop {
     text-align: center;
 }
+
+/* Estilos para pantallas con un ancho máximo de 768px */
 @media (max-width: 768px) {
-     
-* {
-    justify-content: center;
-    font-size: 15px;
+    /* Ajustes para los botones en pantallas pequeñas */
+    #start-btn {
+        font-size: 1rem;
+        padding: 8px 16px;
+        transition: none; /* Elimina la transición en el modo responsive */
     }
 
+    button {
+        font-size: 14px;
+        padding: 8px 16px;
+        transition: none; /* Elimina la transición en el modo responsive */
+    }
+
+    /* Ajustes para el contenedor en pantallas pequeñas */
     .container {
-        justify-content: center;
-        height: 100vh;
-        width: 100vh;
-        overflow-y:scroll;
+        width: 100%;
+        height: auto;
         padding: 15px;
-        margin: auto;
+        margin: 0;
         display: flex;
+        flex-direction: column; /* Asegura que los elementos dentro se apilen verticalmente */
+        align-items: center; /* Centra los elementos horizontalmente */
+        justify-content: center; /* Centra los elementos verticalmente */
+        overflow-y: auto; /* Permite desplazamiento vertical si es necesario */
     }
 
-
-    h1{
+    h1 {
         font-size: 25px;
         padding: 1px;
         margin: 1px;
-        text-align: center;
-        align-items: center;
-        margin-top: auto;
     }
 
-    #question{
+    #question {
+        font-size: 10px;
+    }
+
+    p{
         font-size: 15px;
     }
 
-    body {
-        margin: 0; 
-        padding: 0; 
-        background-image: url('./img/643508.jpg');
-        background-size: cover; 
-        background-position: center; 
-        background-repeat: no-repeat; 
-        background-attachment: fixed;
-        height: 100vh;
+    strong{
+        font-size: 15px;
     }
     
+    body {
+        height: auto; /* Ajusta la altura para permitir el contenido adicional en pantallas pequeñas */
+    }
 
-    .text{
+    .text {
         margin: 10px;
     }
-    
+
+    /* Ajustes para botones con el fade-out */
     .option-button.fade-out {
         background: none;
         transition: background 0.1s ease-out;
     }
+
     .quiz-container {
         font-size: 10px;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
+        display: flex;
+        flex-direction: column; /* Asegura que los elementos dentro se apilen verticalmente */
+        align-items: center; /* Centra los elementos horizontalmente */
+        justify-content: center; /* Centra los elementos verticalmente */
     }
-    #start-btn {
-        font-size: 1rem; 
-        padding: 8px 16px; 
-    }
-
-    button {
-        font-size: 14px; 
-        padding: 8px 16px; 
-        transition: none;
-    }
-
 }
