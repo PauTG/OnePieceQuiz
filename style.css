@@ -99,7 +99,6 @@ button {
     font-size: 15px;
     cursor: pointer;
     text-align: center;
-    
 }
 
 
@@ -150,10 +149,10 @@ button {
     }
 
     .container {
-        width: 90%; 
+        width: 100%; 
         max-width: 600px; 
         padding: 15px; 
-        margin: 0; 
+        margin: 3px;
         background-color: rgba(0, 0, 0, 0.8); 
         border-radius: 10px; 
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
@@ -161,12 +160,13 @@ button {
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        overflow-y: auto;
     }
 
     h1 {
         font-size: 25px;
         padding: 1px;
-        margin: 1px;
+        margin-top: 5px;
     }
 
     #question {
